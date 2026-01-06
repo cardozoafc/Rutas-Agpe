@@ -1,0 +1,254 @@
+﻿codigo_agpe,cuenta,nombre_cliente,municipio,zona,telefono,circuito,potencia_kw_nominal,potencia_kw_entregar,fecha_conectada,lat,lon,serie_medidor,marca_medidor,url_ir
+AGPE0028,483717576,RESTAURANTE LA QUINTA,ARCABUCO,RICAURTE,3158937232,,,,,5.762337,-73.446181,,,"https://www.google.com/maps/dir/?api=1&destination=5.762337,-73.446181"
+AGPE0159,149275060,OLGA TATIANA VARGAS,BELEN,TUNDAMA,3052350202,,,,,5.970722,-72.931321,,,"https://www.google.com/maps/dir/?api=1&destination=5.970722,-72.931321"
+16009,514168405,EMPRESA DE ENERGÍA DE BOYACÁ SEDE ADMINISTRATIVA BOAVITA,BOAVITA,,,9631.0,10.0,10.0,2025-10-30,6.329992,-72.585938,96539894.0,ISKRA,"https://www.google.com/maps/dir/?api=1&destination=6.329992,-72.585938"
+15845,1113561376,JERONIMO MARTINS COLOMBIA SAS,CHIQUINQUIRA,,,6786.0,35.0,35.0,2025-10-30,5.620902,-73.813398,,,"https://www.google.com/maps/dir/?api=1&destination=5.620902,-73.813398"
+AGPE0072,635907982,LUIS OMAR ARANDA,CHITARAQUE,RICAURTE,3213494307,,,,,5.992911,-73.453603,,,"https://www.google.com/maps/dir/?api=1&destination=5.992911,-73.453603"
+15623,786393946,DIEGO FERNANDO PAÉZ MORENO,COMBITA,CENTRO,3043750538,741.0,8.0,8.0,2025-11-13,5.589492,-73.328721,101259000962.0,MICROSTAR,"https://www.google.com/maps/dir/?api=1&destination=5.589492,-73.328721"
+AGPE0243,1233401708,VILLAMIL PAEZ GONZALO,CUCAITA,CENTRO,3208481661,,,,,5.534235,-73.458742,,,"https://www.google.com/maps/dir/?api=1&destination=5.534235,-73.458742"
+15994,1239162952,AURA ELISA BECERRA DE NIÑO,DUITAMA,,,17369.0,6.0,5.1,2025-11-13,5.79292,-73.049761,,,"https://www.google.com/maps/dir/?api=1&destination=5.79292,-73.049761"
+15943,1100009869,GONZALEZ MANRRIQUE MARIO ANDRES,DUITAMA,,,3195.0,3.45,3.45,2025-11-30,5.850596,-73.025463,,,"https://www.google.com/maps/dir/?api=1&destination=5.850596,-73.025463"
+15840,1130100924,JERONIMO MARTINS COLOMBIA SAS,DUITAMA,,,3572.0,40.0,40.0,2025-10-30,5.813596,-73.03128,,,"https://www.google.com/maps/dir/?api=1&destination=5.813596,-73.03128"
+15705,1157295524,JESÚS ANTONIO ALVARÉZ QUINTANA,DUITAMA,,,3194.0,3.456,3.456,2025-11-18,5.855003,-73.026293,25061213.0,MICROSTAR,"https://www.google.com/maps/dir/?api=1&destination=5.855003,-73.026293"
+AGPE0226,1297824333,JESÚS ANTONIO ALVARÉZ QUINTANA,DUITAMA,TUNDAMA,3112781317,,,,,5.855003,-73.026293,,,"https://www.google.com/maps/dir/?api=1&destination=5.855003,-73.026293"
+15952,436441042,ÁLVAREZ MORALES LUIS ANSELMO,DUITAMA,,,18075.0,40.0,40.0,2025-11-20,5.791066,-73.066137,101249012739.0,MICROSTAR,"https://www.google.com/maps/dir/?api=1&destination=5.791066,-73.066137"
+16103,514997651,EMPRESA DE ENERGÍA DE BOYACÁ SEDE ADMINISTRATIVA MONIQUIRA,MONIQUIRA,,,11050.0,12.0,12.0,2025-11-30,5.875013,-73.572591,25061583.0,MICROSTAR,"https://www.google.com/maps/dir/?api=1&destination=5.875013,-73.572591"
+AGPE0079,187415520,BOCADILLOS LA RICAUTE CUENTA 2,MONIQUIRÁ,RICAURTE,3213494307,,,,,5.890561,-73.578217,,,"https://www.google.com/maps/dir/?api=1&destination=5.890561,-73.578217"
+AGPE0186,992701388,WILSON MAYORGA RUBIANO,MONIQUIRÁ,RICAURTE,3204874066,,,,,5.88315,-73.58062,,,"https://www.google.com/maps/dir/?api=1&destination=5.88315,-73.58062"
+AGPE0225,1298428262,FLORES PUERTO MARCELINO,PAIPA,TUNDAMA,3115090775,,,,,5.791256,-73.118141,,,"https://www.google.com/maps/dir/?api=1&destination=5.791256,-73.118141"
+15940,766546662,FLORES PUERTO MARCELINO,PAIPA,,,17859.0,10.0,10.0,2025-11-15,5.791256,-73.118141,25066038.0,MICROSTAR,"https://www.google.com/maps/dir/?api=1&destination=5.791256,-73.118141"
+AGPE0087,1164314502,FINCA AGROTURISTICA LAS VIOLETAS,PUERTO BOYACA,PUERTO BOYACA,3114568971,,,,,6.04842,-74.489775,,,"https://www.google.com/maps/dir/?api=1&destination=6.04842,-74.489775"
+AGPE0168,1275927049,JOSE OLIVEROS ARROYO CADENA,PUERTO BOYACA,PUERTO BOYACA,3173733150,,,,,5.97608999,-74.584096,,,"https://www.google.com/maps/dir/?api=1&destination=5.97608999,-74.584096"
+AGPE0238,844679124,VILEALDO JAVIER SIERRA MEDINA,SACHICA,CENTRO,3103340466,,,,,5.58795666,-73.541911,,,"https://www.google.com/maps/dir/?api=1&destination=5.58795666,-73.541911"
+AGPE0218,1295423690,COOPERATIVA BOYACENSE PRODUCTORA DE CARBON,SAMACA,CENTRO,3165296782,,,,,5.47697,-73.5101833,,,"https://www.google.com/maps/dir/?api=1&destination=5.47697,-73.5101833"
+15988,1224037061,Cooperativa Boyacense Productora de Carbón de Samacá y Ráquira,SAMACA,,,2098.0,10.0,10.0,2025-10-23,5.47965,-73.511171,25061553.0,MICROSTAR,"https://www.google.com/maps/dir/?api=1&destination=5.47965,-73.511171"
+AGPE0047,319286153,TRAPICHE EL PANELERO V1,SAN JOSE DE PARE,RICAURTE,3213494307,,,,,6.021958,-73.523659,,,"https://www.google.com/maps/dir/?api=1&destination=6.021958,-73.523659"
+AGPE0104,106007842,CARLOS PIEDRAHITA,SANTA ROSA DE VITERBO,TUNDAMA,3185060506,,,,,5.811772,-72.973546,,,"https://www.google.com/maps/dir/?api=1&destination=5.811772,-72.973546"
+AGPE0071,557995832,BERTA LUCIA RAMIREZ,SANTA SOFIA,CENTRO,3002882594,,,,,5.775,-73.588591,,,"https://www.google.com/maps/dir/?api=1&destination=5.775,-73.588591"
+AGPE0231,1297905039,GLOBAL PANELA SAS,SANTANA,RICAURTE,3114195609,,,,,6.027324,-73.508298,,,"https://www.google.com/maps/dir/?api=1&destination=6.027324,-73.508298"
+16051,525468502,GLOBAL PANELA SAS,SANTANA,,,11170.0,40.0,40.0,2025-11-30,6.027324,-73.508298,101259036610.0,MICROSTAR,"https://www.google.com/maps/dir/?api=1&destination=6.027324,-73.508298"
+16104,950357491,EMPRESA DE ENERGÍA DE BOYACÁ SEDE ADMINISTRATIVA SOGAMOSO,SOGAMOSO,SUGAMUXI,3165378626,5180.0,20.0,20.0,2025-11-25,5.724595,-72.922564,3583846.0,ace6000 Itron,"https://www.google.com/maps/dir/?api=1&destination=5.724595,-72.922564"
+16001,1044342232,HERNAN DARIO ROA ARIAS,SOGAMOSO,,,22827.0,5.76,5.76,2025-10-30,5.660959,-72.957269,,,"https://www.google.com/maps/dir/?api=1&destination=5.660959,-72.957269"
+AGPE0217,1295487152,INVERSIONES JUAN CARLOS BARRERA  SAS,SOGAMOSO,SUGAMUXI,3105286099,,,,,5.772724,-72.857323,,,"https://www.google.com/maps/dir/?api=1&destination=5.772724,-72.857323"
+15841,1100665757,JERONIMO MARTINS COLOMBIA SAS,SOGAMOSO,,,5154.0,50.0,50.0,2025-10-30,5.714158,-72.928625,,,"https://www.google.com/maps/dir/?api=1&destination=5.714158,-72.928625"
+AGPE0002,1163983861,TERRACOTA,SOGAMOSO,SUGAMUXI,3103297561,,,,,5.6638849,-72.962636,,,"https://www.google.com/maps/dir/?api=1&destination=5.6638849,-72.962636"
+AGPE0167,1244522796,SARATOGA INVERSIONES SA,SOTAQUIRÁ,CENTRO,3227218461,,,,,5.742321,-73.253887,,,"https://www.google.com/maps/dir/?api=1&destination=5.742321,-73.253887"
+AGPE0237,1257544502,JORGE YAMID NOPE SOLER,TIBANA,CENTRO,3143333785,,,,,5.325332,-73.401208,,,"https://www.google.com/maps/dir/?api=1&destination=5.325332,-73.401208"
+AGPE0230,1297916795,OMAR MALAGON,TINJACA,CENTRO,3208669161,,,,,5.5956233,-73.63845,,,"https://www.google.com/maps/dir/?api=1&destination=5.5956233,-73.63845"
+15907,887657567,OMAR MALAGON,TINJACA,,,23930.0,14.0,14.0,2025-11-30,5.595739,-73.638546,25061398.0,MICROSTAR,"https://www.google.com/maps/dir/?api=1&destination=5.595739,-73.638546"
+15919,1246216462,RAÚL ANDRÉS CELY TOBO,TOCA,,,24484.0,60.0,60.0,2025-11-11,5.608973,-73.1767,101249012721.0,MICROSTAR,"https://www.google.com/maps/dir/?api=1&destination=5.608973,-73.1767"
+AGPE0223,1297798907,RAÚL ANDRÉS CELY TOBO,TOCA,CENTRO,3174981131,,,,,5.608988,-73.176736,,,"https://www.google.com/maps/dir/?api=1&destination=5.608988,-73.176736"
+AGPE0177,873502967,COMERCIALIZADORA DE ALIMENTOS RODRIGUEZ SAS,TUNJA,CENTRO,3214569032,,,,,5.453118,-73.425032,,,"https://www.google.com/maps/dir/?api=1&destination=5.453118,-73.425032"
+15587,761562807,CRUZ JAIRO HUMBERTO,TUNJA,,,1034.0,41.2,32.0,2025-10-30,5.518707,-73.362775,92527387.0,ISKRA,"https://www.google.com/maps/dir/?api=1&destination=5.518707,-73.362775"
+15860,1244430334,CUADROS SICHACÁ ANDREA CAROLINA,TUNJA,,,18572.0,2.0,2.0,2025-11-18,5.538804,-73.403946,24066595.0,MICROSTAR,"https://www.google.com/maps/dir/?api=1&destination=5.538804,-73.403946"
+AGPE0227,1297844181,CUADROS SICHACÁ ANDREA CAROLINA,TUNJA,CENTRO,3152024993,,,,,5.53902333,-73.40391,,,"https://www.google.com/maps/dir/?api=1&destination=5.53902333,-73.40391"
+16105,481618788,EMPRESA DE ENERGÍA DE BOYACÁ SEDE ADMINISTRATIVA TUNJA,TUNJA,CENTRO,3165378626,32030.0,12.6,12.6,2025-11-25,5.528815,-73.363316,3583888.0,ace6000 Itron,"https://www.google.com/maps/dir/?api=1&destination=5.528815,-73.363316"
+AGPE0236,933350195,GLADYS MEDINA BRANDO,TUNJA,CENTRO,3103414791,,,,,5.49597333,-73.36618,,,"https://www.google.com/maps/dir/?api=1&destination=5.49597333,-73.36618"
+15905,1279587841,HERNANDEZ DE CASTRO MARTA INÉS,TUNJA,,,364.0,4.5,3.3,2025-11-30,5.560484,-73.335338,25061388.0,MICROSTAR,"https://www.google.com/maps/dir/?api=1&destination=5.560484,-73.335338"
+AGPE0239,1292723214,JEFFER ALFONSO CELY AVILA,TUNJA,CENTRO,3112914904,,,,,5.543393,-73.376098,,,"https://www.google.com/maps/dir/?api=1&destination=5.543393,-73.376098"
+AGPE0222,1295383267,MESA MARTINEZ ROOSEVELT,TUNJA,CENTRO,,,,,,5.56297,-73.334608,,,"https://www.google.com/maps/dir/?api=1&destination=5.56297,-73.334608"
+AGPE0240,1293263844,NERBIS ZULANY PUENTES GARCIA,TUNJA,CENTRO,3112914904,,,,,5.551196,-73.342351,,,"https://www.google.com/maps/dir/?api=1&destination=5.551196,-73.342351"
+AGPE0242,1227068222,NORBERTO ALEXANDER SOLANO TORRES,TUNJA,CENTRO,3103292709,,,,,5.541006,-73.36275,,,"https://www.google.com/maps/dir/?api=1&destination=5.541006,-73.36275"
+16053,1291112927,ROOSEVELT MESA MARTINEZ,TUNJA,,,660.0,10.0,10.0,2025-10-30,,,,,
+15906,1246188572,RODRIGUEZ MARTHA DEL CARMEN,VENTAQUEMADA,,,24479.0,20.0,20.0,2025-10-30,5.428735,-73.449944,96539282.0,,"https://www.google.com/maps/dir/?api=1&destination=5.428735,-73.449944"
+AGPE0220,1295461612,RODRIGUEZ MARTHA DEL CARMEN,VENTAQUEMADA,CENTRO,72162417,,,,,5.68851,-73.25996,,,"https://www.google.com/maps/dir/?api=1&destination=5.68851,-73.25996"
+AGPE0211,1294304903,EDUARDO ACOSTA USCATEGUI,VILLA DE LEYVA,CENTRO,3182884165,,,,,5.32781,-73.5209,,,"https://www.google.com/maps/dir/?api=1&destination=5.32781,-73.5209"
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,EBSA  TUNJA,,,,,,,,,
+,,,,,EBSSA MONIQUIRA,,,,,,,,,
+,,,,,EBSA BOAVITA,,,,,,,,,
+,,,,,EBSA SOGAMOSO,,,,,,,,,
+,,,,,GLADYS MEDINA BRANDO,,,,,,,,,
+,,,,,JORGE YAMID NOPE SOLER,,,,,,,,,
+,,,,,VILEALDO JAVIER SIERRA MEDINA,,,,,,,,,
+,,,,,JEFFER ALFONSO CELY AVILA,,,,,,,,,
+,,,,,NERBIS ZULANY PUENTES GARCIA,,,,,,,,,
+,,,,,EMPRESA DE ENERGIA DE BOYACA SA ESP,,,,,,,,,
+,,,,,NORBERTO ALEXANDER SOLANO TORRES,,,,,,,,,
+,,,,,VILLAMIL PAEZ GONZALO,,,,,,,,,
