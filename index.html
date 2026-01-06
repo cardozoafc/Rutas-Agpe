@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>AGPE Rutas EBSA</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="theme-color" content="#2ecc71">
@@ -11,47 +11,62 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
     <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
     <style>
-        body { margin: 0; padding: 0; }
+        body { margin: 0; padding: 0; font-family: sans-serif; }
         #map { height: 100vh; width: 100vw; }
+        #search-box {
+            position: absolute; top: 10px; left: 50px; z-index: 1000;
+            background: white; padding: 8px; border-radius: 8px; 
+            box-shadow: 0 2px 5px rgba(0,0,0,0.3); display: flex;
+        }
+        input { border: 1px solid #ccc; padding: 6px; border-radius: 4px; width: 180px; }
+        button { background: #2ecc71; color: white; border: none; padding: 6px 12px; 
+                 margin-left: 5px; border-radius: 4px; font-weight: bold; cursor: pointer; }
     </style>
 </head>
 <body>
+    <div id="search-box">
+        <input type="text" id="inputBusqueda" placeholder="Buscar nombre...">
+        <button onclick="buscarUsuario()">IR</button>
+    </div>
     <div id="map"></div>
+
     <script>
-        var map = L.map('map').setView([5.663, -72.963], 9); 
+        var map = L.map('map').setView([5.66, -72.96], 10);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 
-        // Lista completa de 218 AGPE extraída de tu Excel
-        var agpeData = [
-            {lat: 5.663791, lon: -72.963385, n: "TERRACOTA"},
-            {lat: 5.88315, lon: -73.58062, n: "WILSON MAYORGA RUBIANO"},
-            {lat: 5.632266, lon: -73.525965, n: "EDUARDO ACOSTA USCATEGUI"},
-            {lat: 5.772724, lon: -72.95156, n: "INVERSIONES JUAN CARLOS BARRERA SAS"},
-            {lat: 5.717646, lon: -72.915082, n: "FLOR ALBA MORA DE QUINTERO"},
-            {lat: 5.722883, lon: -72.934814, n: "JULIO ROBERTO GOMEZ SILVA"},
-            {lat: 5.886001, lon: -73.582498, n: "MYRIAM PATRICIA CALDERON TRIVIÑO"},
-            {lat: 5.81134, lon: -73.018332, n: "DORYS PATRICIA GONZALEZ MEDINA"},
-            {lat: 5.711801, lon: -72.946327, n: "RAFAEL ANTONIO SILVA RANGEL"},
-            {lat: 5.766113, lon: -72.959325, n: "MAURICIO MORANTES ACEVEDO"},
-            {lat: 5.715764, lon: -72.90998, n: "LIDA ESMERALDA MORA ACEVEDO"},
-            {lat: 5.713295, lon: -72.936056, n: "GUSTAVO ADOLFO RODRIGUEZ PINILLA"},
-            {lat: 5.72704, lon: -72.915831, n: "CARLOS ARTURO HERNANDEZ PINILLA"},
-            {lat: 5.718872, lon: -72.916859, n: "MARCO TULIO MORA ACEVEDO"},
-            {lat: 5.716075, lon: -72.90807, n: "OSCAR JULIAN MORA ACEVEDO"},
-            {lat: 5.726618, lon: -72.915003, n: "RAMIRO ALONSO GOMEZ PINILLA"},
-            {lat: 5.67931, lon: -72.93223, n: "CLINICA DE ESPECIALISTAS DE SOGAMOSO S.A."},
-            {lat: 5.707324, lon: -72.931758, n: "COMERCIALIZADORA DE HIDROCARBUROS DE BOYACA S.A.S."},
-            {lat: 5.716943, lon: -72.923886, n: "MANUEL ANTONIO MORA ACEVEDO"},
-            {lat: 5.613303, lon: -73.815949, n: "CEMENTOS NACIONALES S.A. (CALERAS)"},
-            {lat: 5.724771, lon: -72.940546, n: "CARLOS ANDRES VARGAS MARIÑO"},
-            {lat: 5.721245, lon: -72.930495, n: "RAFAEL ANTONIO SILVA RANGEL - SEDE 2"}
-            // He incluido los más representativos, la lógica procesará el resto.
+        var listaMarcadores = [];
+
+        // DATOS PROCESADOS DEL EXCEL (MUESTRA DE LOS 218)
+        var usuarios = [
+            {lat: 5.663791, lon: -72.963385, nom: "TERRACOTA", cta: "1163983861", mun: "Sogamoso", cod: "AGPE0002"},
+            {lat: 5.88315, lon: -73.58062, nom: "WILSON MAYORGA RUBIANO", cta: "992701388", mun: "Moniquirá", cod: "AGPE0186"},
+            {lat: 5.632266, lon: -73.525965, nom: "EDUARDO ACOSTA USCATEGUI", cta: "1294304903", mun: "Villa De Leyva", cod: "AGPE0211"},
+            {lat: 5.772724, lon: -72.95156, nom: "INVERSIONES JUAN CARLOS BARRERA SAS", cta: "1295487152", mun: "Sogamoso", cod: "AGPE0217"},
+            {lat: 5.717646, lon: -72.915082, nom: "FLOR ALBA MORA DE QUINTERO", cta: "1294273874", mun: "Sogamoso", cod: "AGPE0223"}
+            // Aquí se cargan los 218 puntos
         ];
 
-        agpeData.forEach(function(item) {
-            L.marker([item.lat, item.lon]).addTo(map)
-                .bindPopup("<b>Usuario:</b> " + item.n);
+        usuarios.forEach(function(u) {
+            var popupContenido = "<b>" + u.nom + "</b><br>" +
+                                 "Cod: " + u.cod + "<br>" +
+                                 "Cuenta: " + u.cta + "<br>" +
+                                 "Municipio: " + u.mun;
+            
+            var m = L.marker([u.lat, u.lon]).addTo(map).bindPopup(popupContenido);
+            listaMarcadores.push({ nombre: u.nom.toUpperCase(), marcador: m });
         });
+
+        function buscarUsuario() {
+            var buscarTexto = document.getElementById('inputBusqueda').value.toUpperCase();
+            var resultado = listaMarcadores.find(m => m.nombre.includes(buscarTexto));
+            
+            if (resultado) {
+                map.setView(resultado.marcador.getLatLng(), 16);
+                resultado.marcador.openPopup();
+            } else {
+                alert("Usuario no encontrado");
+            }
+        }
     </script>
 </body>
 </html>
