@@ -8,6 +8,7 @@ from streamlit_folium import st_folium
 # =========================
 st.set_page_config(
     page_title="AGPE EBSA - Mapa",
+    page_icon="icono agpe.png",
     layout="wide"
 )
 
@@ -126,3 +127,4 @@ st_folium(
     use_container_width=True,
     height=650
 )
+
